@@ -1,0 +1,49 @@
+.root{
+    -fx-border-color: red;
+    -fx-border-width: 8;
+    -fx-background-color: red;
+}
+
+.button{
+    -fx-background-color: lime;
+    -fx-border-color: lime;
+    -fx-border-width: 8;
+}
+
+
+
+
+
+.text-area{
+    -fx-background-color: lime;
+    -fx-border-color: red;
+    -fx-border-width: 8;
+    -fx-border-color: lime;
+
+}
+
+.text-area .content {
+    -fx-background-color: red;
+    -fx-border-color: lime;
+}
+
+.text-field{
+    -fx-background-color: lime;
+    -fx-border-color: red;
+    -fx-border-width: 8;
+    -fx-border-color: lime;
+
+}
+
+.text-field .content {
+    -fx-background-color: red;
+    -fx-border-color: lime;
+}
+
+
+
+
+
+
+
+
