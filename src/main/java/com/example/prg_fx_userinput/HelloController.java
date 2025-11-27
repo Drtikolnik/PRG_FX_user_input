@@ -40,13 +40,19 @@ public class HelloController {
         dialog.setContentText("Text:");
 
         Optional<String> result = dialog.showAndWait();
-        String text = result.get();
-        if (text.isEmpty()) {
-            handleAlert();
-        }else{
-            System.out.println("Zadáno" + text);
-            listView1.getItems().add(text);
+        if (result.isPresent()){
+            String text = result.get();
+            if (text.isEmpty()) {
+                handleAlert();
+            }else{
+                System.out.println("Zadáno" + text);
+                listView1.getItems().add(text);
+            }
         }
+
+
+
+
     }
 
 

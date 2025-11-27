@@ -2,6 +2,7 @@
     -fx-border-color: red;
     -fx-border-width: 8;
     -fx-background-color: red;
+    -fx-font-family: papyrus;
 }
 
 .button{
@@ -40,7 +41,12 @@
     -fx-border-color: lime;
 }
 
+.list-view{
+    -fx-border-color: lime;
+    -fx-border-width: 8;
+    -fx-background-color: lime;
 
+}
 
 
 
